@@ -213,6 +213,9 @@
   .mt-\[70px\] {
     margin-top: 70px;
   }
+  .mt-\[100\] {
+    margin-top: 100;
+  }
   .mt-\[100px\] {
     margin-top: 100px;
   }
@@ -1528,6 +1531,11 @@
       margin-top: 10px;
     }
   }
+  .lg\:mt-\[100\] {
+    @media (width >= 64rem) {
+      margin-top: 100;
+    }
+  }
   .lg\:mt-\[100px\] {
     @media (width >= 64rem) {
       margin-top: 100px;
@@ -1931,6 +1939,11 @@
   .lg\:text-start {
     @media (width >= 64rem) {
       text-align: start;
+    }
+  }
+  .lg\:text-\[05px\] {
+    @media (width >= 64rem) {
+      font-size: 05px;
     }
   }
   .lg\:text-\[10px\] {
